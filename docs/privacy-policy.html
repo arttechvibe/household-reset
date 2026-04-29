@@ -187,20 +187,71 @@
       </li>
     </ul>
 
-    <h2>5. Children</h2>
+    <h2 id="delete-account">5. Deleting your account</h2>
+    <p>
+      You can permanently delete your Household Reset account at any time,
+      directly from inside the app. No support email or web form is required.
+    </p>
+
+    <h3>Steps</h3>
+    <ol>
+      <li>Open the Household Reset app.</li>
+      <li>Tap the <strong>You</strong> tab in the bottom navigation bar.</li>
+      <li>Scroll to the <strong>Danger zone</strong> section near the bottom.</li>
+      <li>Tap <strong>Delete Account</strong> and confirm.</li>
+    </ol>
+
+    <h3>What is deleted immediately</h3>
+    <ul>
+      <li>Your profile (display name, email, user ID).</li>
+      <li>Your credit balance, credit ledger, and referral code.</li>
+      <li>Your household membership.</li>
+      <li>
+        Any household for which you were the sole remaining member, including
+        its staples, recurring tasks, shopping list, and meal-suggestion
+        history.
+      </li>
+    </ul>
+
+    <h3>What is retained, and for how long</h3>
+    <ul>
+      <li>
+        Households that still have other members: the household itself
+        survives, with ownership transferred to the next senior member. Your
+        name and activity are removed from member views immediately.
+      </li>
+      <li>
+        Anonymized crash logs (Firebase Crashlytics): retained up to 90 days
+        for debugging, then auto-purged. They contain no personally
+        identifying information.
+      </li>
+      <li>
+        Anonymized analytics events (e.g. <em>task_completed</em>): retained
+        in aggregated form. They contain no personally identifying
+        information and cannot be traced back to you after deletion.
+      </li>
+      <li>
+        Automated database backups: deleted records roll off Supabase's
+        snapshot system within 7 days under normal conditions.
+      </li>
+    </ul>
+
+    <p>Deletion is immediate and irreversible.</p>
+
+    <h2>6. Children</h2>
     <p>
       The app is not directed to children under 13 and we do not knowingly
       collect data from them.
     </p>
 
-    <h2>6. Changes</h2>
+    <h2>7. Changes</h2>
     <p>
       We may update this policy. When we do, we will update the
       &ldquo;Last updated&rdquo; date above and, for material changes, notify
       you in-app.
     </p>
 
-    <h2>7. Contact</h2>
+    <h2>8. Contact</h2>
     <p>
       Questions or concerns? Reach out through the support channel listed on
       the app&rsquo;s store page.
